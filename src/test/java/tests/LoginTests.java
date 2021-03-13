@@ -20,6 +20,7 @@ import io.qameta.allure.Feature;
 public class LoginTests extends TestBase {
 
 	@Test
+	@Disabled
 	@DisplayName("Successful login Google account'")
 	void loginWithGoogleTest() {
 		open("");

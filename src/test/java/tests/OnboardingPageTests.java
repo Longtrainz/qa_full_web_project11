@@ -44,7 +44,7 @@ public class OnboardingPageTests extends TestBase {
 	@Test
 	@DisplayName("Page should have title \"THE ANONYMOUS HOOKUP APP\"")
 	void titlePageTest() {
-		open("/app/ru/onboarding");
+		open("/app/en/onboarding");
 
 		$("#root").shouldHave(
 				text("THE ANONYMOUS HOOKUP APP"));
