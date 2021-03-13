@@ -35,6 +35,7 @@ public class LoginTests extends TestBase {
 		open("https://medium.com/");
 		$(byText("Sign In")).click();
 		$(byText("Sign in with Facebook")).click();
+		$(byText("Accept All")).click();
 		facebookAuthPage.login(getFacebookUsername(), getFacebookPassword());
 		Selenide.sleep(5000);
 //		$(by("data-test-id", "onboarding-geolocation-access")).shouldBe(visible);

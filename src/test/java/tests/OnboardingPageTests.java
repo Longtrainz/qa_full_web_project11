@@ -20,6 +20,7 @@ public class OnboardingPageTests extends TestBase {
 
 
 	@Test
+	@Disabled
 	@DisplayName("Console log should not have any errors")
 	void consoleLogShouldNotHaveErrors() {
 		step("Open onboarding page", () -> open("/app/ru/onboarding"));
